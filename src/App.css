@@ -45,3 +45,22 @@
     margin: 60px;
     font-size: 30px
 }
+
+.projects-area {
+    padding: 50px;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+    padding-top: 10%;
+}
+
+.projects-area h2 {
+    color: red;
+}
+
+.buttons {
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
