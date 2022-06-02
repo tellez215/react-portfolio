@@ -29,6 +29,15 @@
     color: rgb(230, 133, 54);
 }
 
+.mainName{
+
+    position:absolute;
+    top:0;
+    left:0;
+    position:absolute;
+    text-decoration:underline;
+}
+
 .about-area {
     text-align: center;
     color: white;

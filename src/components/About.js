@@ -5,6 +5,7 @@ import Footer from './Footer';
 function About() {
     return (
         <div>
+            <h1 className='mainName'>Christian Tellez</h1>
             <div className='about-area'>
                 <img src={Avatar} alt='logo' ></img>
                 <h1>ABOUT ME</h1>
