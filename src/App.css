@@ -122,3 +122,9 @@ label {
     align-items: center;
     margin-top: 8%;
 }
+
+.socialIcons {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
