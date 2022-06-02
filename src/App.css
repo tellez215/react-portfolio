@@ -26,7 +26,7 @@
 }
 
 .nav-area li a:hover {
-    color: rgb(223, 172, 33);
+    color: rgb(230, 133, 54);
 }
 
 .about-area {
@@ -46,6 +46,10 @@
     font-size: 30px
 }
 
+.projectsName{
+    font-size: xx-large;
+}
+
 .projects-area {
     padding: 50px;
     text-align: center;
@@ -56,11 +60,56 @@
 }
 
 .projects-area h2 {
-    color: red;
+    color: rgb(230, 133, 54);
 }
 
 .buttons {
     justify-content: center;
     align-items: center;
     margin-top: 5px;
+}
+
+.contacth1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 7%;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.form-cont{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.submitbtn{
+    color: rgb(230, 133, 54);
+    background-color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+input[type=text],textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label {
+    font-size: x-large;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
 }
