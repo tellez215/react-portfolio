@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 import project1 from '../img/1.png'
 import project2 from '../img/2.png'
 import project3 from '../img/3.png'
@@ -95,6 +96,7 @@ function Project() {
           <a href="#" style={{ color: 'rgb(255, 255, 255)' }}>Visit Site</a>
         </div>
       </div>
+      <Footer/>
     </div>
 
   );

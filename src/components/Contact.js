@@ -1,3 +1,5 @@
+import Footer from "./Footer";
+
 function Contact() {
     return (
         <div>
@@ -19,6 +21,8 @@ function Contact() {
                 <input type="submit" value="Submit" className="submitbtn"/>
 
             </form>
+
+            <Footer/>
         </div>
 
 
