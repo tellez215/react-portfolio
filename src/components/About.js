@@ -1,8 +1,11 @@
 import Avatar from '../img/user2.png'
+import Footer from './Footer';
 
-function About () {
+
+function About() {
     return (
-        <div className='about-area'>
+        <div>
+            <div className='about-area'>
                 <img src={Avatar} alt='logo' ></img>
                 <h1>ABOUT ME</h1>
 
@@ -12,6 +15,9 @@ function About () {
                     more projects as the time comes. Feel free to check out my projects with links to them down below and if you'd like to contact me , my information to my Github and LinkedIn at the bottom of the page!</p>
 
             </div>
+            <Footer/>
+        </div>
+
     );
 }
 
